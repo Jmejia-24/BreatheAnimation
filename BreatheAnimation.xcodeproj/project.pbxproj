@@ -11,6 +11,8 @@
 		3BFB5B9228904EA300F87230 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB5B9128904EA300F87230 /* ContentView.swift */; };
 		3BFB5B9428904EA400F87230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFB5B9328904EA400F87230 /* Assets.xcassets */; };
 		3BFB5B9728904EA400F87230 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFB5B9628904EA400F87230 /* Preview Assets.xcassets */; };
+		3BFB5BA52890553F00F87230 /* BreatheType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB5BA42890553F00F87230 /* BreatheType.swift */; };
+		3BFB5BA7289059D200F87230 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB5BA6289059D200F87230 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3BFB5B9128904EA300F87230 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BFB5B9328904EA400F87230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BFB5B9628904EA400F87230 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BFB5BA42890553F00F87230 /* BreatheType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheType.swift; sourceTree = "<group>"; };
+		3BFB5BA6289059D200F87230 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		3BFB5B8E28904EA300F87230 /* BreatheAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				3BFB5BA32890552000F87230 /* Model */,
+				3BFB5BA2289054F800F87230 /* View */,
 				3BFB5B8F28904EA300F87230 /* BreatheAnimationApp.swift */,
 				3BFB5B9128904EA300F87230 /* ContentView.swift */,
 				3BFB5B9328904EA400F87230 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				3BFB5B9628904EA400F87230 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BFB5BA2289054F800F87230 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BFB5BA6289059D200F87230 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BFB5BA32890552000F87230 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BFB5BA42890553F00F87230 /* BreatheType.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BFB5B9228904EA300F87230 /* ContentView.swift in Sources */,
+				3BFB5BA52890553F00F87230 /* BreatheType.swift in Sources */,
+				3BFB5BA7289059D200F87230 /* Home.swift in Sources */,
 				3BFB5B9028904EA300F87230 /* BreatheAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BreatheAnimation/Preview Content\"";
@@ -274,8 +299,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BreatheAnimation/Preview Content\"";
@@ -302,8 +328,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
