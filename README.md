@@ -10,6 +10,4 @@
 
 # Screen Shots
 
-![](https://raw.githubusercontent.com/Jmejia-24/BreatheAnimation/Develop/ScreenShots/1.png?token=GHSAT0AAAAAABW66QBW2MWBGC4CSNIDWC5SYXEEY3A)
-
-![](https://raw.githubusercontent.com/Jmejia-24/BreatheAnimation/Develop/ScreenShots/2.png?token=GHSAT0AAAAAABW66QBW5GXZHIPSP4RNNJ22YXEEZ3A)
+![](https://raw.githubusercontent.com/Jmejia-24/BreatheAnimation/Develop/ScreenShots/Jul-29-2022%2011-33-02.gif?token=GHSAT0AAAAAABW66QBXJOHNFK6KGXU7F67OYXEFBHQ)
